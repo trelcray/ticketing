@@ -1,4 +1,4 @@
-name: tests
+name: tests-orders
 
 on:
   pull_request: 
@@ -14,6 +14,6 @@ jobs:
 
       - name: Install dependencies and run test
         run: |
-          cd auth
+          cd orders
           npm install
           npm run test:ci
